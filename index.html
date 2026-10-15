@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CLB Võ Thuật Đức Tâm Môn — Võ Cổ Truyền, Boxing, Kickboxing Quảng Ninh</title>
+  <meta name="description" content="CLB Võ thuật Đức Tâm Môn tại TP Quảng Ninh — Chiêu sinh 2026 lớp Võ cổ truyền, Boxing, Kickboxing. Đăng ký học thử miễn phí. Hotline: 0919.793.996.">
+  <link rel="icon" type="image/jpeg" href="images/Logo.jpg">
+
+  <!-- Google Fonts: Oswald, Playfair Display, Dancing Script, Be Vietnam Pro -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Dancing+Script:wght@600;700&family=Oswald:wght@500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========================================================================
+       PHẦN 1: HEADER STICKY
+       ======================================================================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-container">
+      <a href="#trang-chu" class="brand-logo-wrap" title="CLB Võ Thuật Đức Tâm Môn">
+        <img src="images/Logo.jpg" alt="Logo CLB Võ Thuật Đức Tâm Môn" class="brand-logo-img" onerror="this.onerror=null; this.src='images/Logo.jpg';">
+        <div class="brand-title">
+          <span class="brand-name text-nowrap">ĐỨC TÂM MÔN</span>
+          <span class="brand-sub text-nowrap">Võ Thuật Cổ Truyền & Hiện Đại</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" aria-label="Điều hướng chính">
+        <a href="#trang-chu" class="nav-link text-nowrap active">Trang chủ</a>
+        <a href="#gioi-thieu" class="nav-link text-nowrap">Giới thiệu</a>
+        <a href="#bo-mon" class="nav-link text-nowrap">Bộ môn</a>
+        <a href="#lich-tap" class="nav-link text-nowrap">Lịch tập</a>
+        <a href="#vo-su" class="nav-link text-nowrap">Võ sư</a>
+        <a href="#lien-he" class="nav-link text-nowrap">Liên hệ</a>
+      </nav>
+
+      <!-- Desktop Red CTA Call Button -->
+      <a href="tel:0919793996" class="btn btn-primary-red header-phone-btn text-nowrap" title="Gọi hotline">
+        <span>📞 0919.793.996</span>
+      </a>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="hamburger-btn" id="hamburgerBtn" aria-label="Mở menu" aria-expanded="false">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-backdrop" id="mobileBackdrop"></div>
+  <aside class="mobile-nav-drawer" id="mobileDrawer">
+    <a href="#trang-chu" class="nav-link mobile-nav-link text-nowrap">Trang chủ</a>
+    <a href="#gioi-thieu" class="nav-link mobile-nav-link text-nowrap">Giới thiệu</a>
+    <a href="#bo-mon" class="nav-link mobile-nav-link text-nowrap">Bộ môn</a>
+    <a href="#lich-tap" class="nav-link mobile-nav-link text-nowrap">Lịch tập</a>
+    <a href="#vo-su" class="nav-link mobile-nav-link text-nowrap">Võ sư</a>
+    <a href="#lien-he" class="nav-link mobile-nav-link text-nowrap">Liên hệ</a>
+    <a href="tel:0919793996" class="btn btn-primary-red text-nowrap" style="margin-top: 10px; width: 100%;">
+      <span>📞 0919.793.996</span>
+    </a>
+  </aside>
+
+  <main>
+    <!-- ======================================================================
+         PHẦN 2: HERO
+         ====================================================================== -->
+    <section class="hero-section" id="trang-chu">
+      <!-- Background Ink Artwork (Yin-Yang, Clouds, Red Glow) -->
+      <div class="hero-artwork-bg" aria-hidden="true">
+        <!-- SVG Yin-Yang Symbol -->
+        <svg class="hero-yin-yang" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="50" cy="50" r="48" stroke="#FFC72C" stroke-width="1.5" />
+          <path d="M50 2A48 48 0 0 1 50 98A24 24 0 0 1 50 50A24 24 0 0 0 50 2Z" fill="#FFFFFF" fill-opacity="0.15" />
+          <path d="M50 98A48 48 0 0 1 50 2A24 24 0 0 1 50 50A24 24 0 0 0 50 98Z" fill="#000000" fill-opacity="0.25" />
+          <circle cx="50" cy="26" r="7" fill="#000000" fill-opacity="0.4" />
+          <circle cx="50" cy="74" r="7" fill="#FFFFFF" fill-opacity="0.4" />
+        </svg>
+        <div class="hero-ink-cloud-1"></div>
+        <div class="hero-ink-cloud-2"></div>
+      </div>
+
+      <div class="container hero-content">
+        <!-- Hot Admission Badge -->
+        <div class="hero-badge reveal">
+          <span class="text-nowrap">🔥 CHIÊU SINH 2026</span>
+          <span style="opacity: 0.7;">—</span>
+          <span class="text-nowrap">HỌC THỬ MIỄN PHÍ</span>
+        </div>
+
+        <!-- Main H1 Title -->
+        <h1 class="hero-title reveal">
+          <span class="text-nowrap">CLB VÕ THUẬT</span>
+          <span class="hero-title-highlight text-nowrap">ĐỨC TÂM MÔN</span>
+        </h1>
+
+        <!-- Sub Title Disciplines -->
+        <div class="hero-disciplines reveal">
+          <span class="text-nowrap">Võ cổ truyền</span>
+          <span class="dot">•</span>
+          <span class="text-nowrap">Boxing</span>
+          <span class="dot">•</span>
+          <span class="text-nowrap">Kickboxing</span>
+        </div>
+
+        <!-- Slogan in Calligraphy -->
+        <p class="hero-slogan reveal text-balance">
+          "Rèn thân – Luyện tâm – Sống khỏe mỗi ngày"
+        </p>
+
+        <!-- Short Description -->
+        <p class="hero-desc reveal text-pretty">
+          Môn phái Đức Tâm Môn trong hệ thống võ thuật cổ truyền Việt Nam — nơi rèn luyện sức khỏe, kỹ năng tự vệ và ý chí cho mọi lứa tuổi.
+        </p>
+
+        <!-- CTA Buttons -->
+        <div class="hero-actions reveal">
+          <a href="#dang-ky" class="btn btn-primary-red text-nowrap" id="heroBtnRegister">
+            <span>Đăng ký học thử miễn phí</span>
+          </a>
+          <a href="tel:0919793996" class="btn btn-secondary-gold text-nowrap" id="heroBtnCall">
+            <span>📞 0919.793.996</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Brush Stroke Divider: Chuyển tiếp Cổ Điển -->
+    <div class="brush-divider" aria-hidden="true">
+      <svg viewBox="0 0 800 40" preserveAspectRatio="none">
+        <path d="M0,20 C150,5 250,35 400,18 C550,2 650,32 800,20 L800,22 C650,34 550,4 400,20 C250,37 150,7 0,22 Z" />
+      </svg>
+    </div>
+
+    <!-- ======================================================================
+         PHẦN 3: GIỚI THIỆU CLB (PHONG CÁCH CỔ ĐIỂN)
+         ====================================================================== -->
+    <section class="about-section" id="gioi-thieu">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag text-nowrap">Khởi Nguồn Võ Đạo</span>
+          <h2 class="section-title-classic text-balance">Giới Thiệu CLB Võ Thuật Đức Tâm Môn</h2>
+          <p class="section-subtitle-calligraphy text-balance">"Đức Tâm — võ đi đôi với đức"</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Text Column -->
+          <div class="about-text-content reveal">
+            <p class="about-lead text-pretty">
+              Môn phái Đức Tâm Môn kế thừa và phát huy tinh hoa võ thuật cổ truyền Việt Nam, đặt nền tảng trên tinh thần thượng võ và đạo làm người.
+            </p>
+            <p class="about-p text-pretty">
+              Tại CLB Võ thuật Đức Tâm Môn, chúng tôi tin rằng việc luyện tập võ thuật không đơn thuần là rèn luyện những đòn thế chiến đấu, mà cốt lõi là quá trình tu dưỡng đạo đức, rèn giũa ý chí kiên định và phong thái điềm đạm. Người luyện võ lấy "Đức" làm gốc, lấy "Tâm" dẫn đường, luôn khiêm nhường, tự chủ và sẵn sàng bảo vệ lẽ phải.
+            </p>
+            <p class="about-p text-pretty">
+              Với không gian võ đường khang trang tại thành phố Quảng Ninh, CLB là nơi hội tụ của các thế hệ võ sinh — từ các em nhỏ lứa tuổi nhi đồng đến thanh thiếu niên và người trưởng thành — cùng nhau rèn thân, luyện tâm, kiến tạo một lối sống khỏe mạnh và tràn đầy năng lượng tích cực.
+            </p>
+            <div style="margin-top: 24px;">
+              <a href="#video-gioi-thieu" class="btn btn-secondary-gold text-nowrap" style="font-size: 0.92rem; padding: 10px 22px;">
+                <span>▶ Xem Video Giới Thiệu CLB</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Media Ornate Frame Column -->
+          <div class="about-media-col reveal">
+            <div class="classic-ornate-frame">
+              <span class="classic-corner classic-corner-tl"></span>
+              <span class="classic-corner classic-corner-tr"></span>
+              <span class="classic-corner classic-corner-bl"></span>
+              <span class="classic-corner classic-corner-br"></span>
+              <img src="images/clb-cong-chao.jpg" alt="Võ đường CLB Đức Tâm Môn" class="about-media-img" onerror="this.onerror=null; this.src='images/538616773_691361597292600_7955555843554048596_n.jpg';">
+            </div>
+          </div>
+        </div>
+
+        <!-- 4 Điểm Mạnh (4 Cards Vàng Gold Cổ Điển) -->
+        <div class="strength-grid">
+          <div class="strength-card reveal">
+            <div class="strength-icon-wrap">🥋</div>
+            <h3 class="strength-title text-balance">Huấn Luyện Viên Kinh Nghiệm</h3>
+            <p class="strength-desc text-pretty">Được trực tiếp hướng dẫn và chỉnh sửa từng thế võ, đòn đánh bởi đội ngũ võ sư tâm huyết, chuyên môn cao.</p>
+          </div>
+
+          <div class="strength-card reveal">
+            <div class="strength-icon-wrap">📜</div>
+            <h3 class="strength-title text-balance">Giáo Trình Bài Bản</h3>
+            <p class="strength-desc text-pretty">Lộ trình đào tạo chuẩn mực từ cơ bản đến nâng cao, thiết kế khoa học phù hợp với từng lứa tuổi và thể trạng.</p>
+          </div>
+
+          <div class="strength-card reveal">
+            <div class="strength-icon-wrap">🥊</div>
+            <h3 class="strength-title text-balance">Trang Thiết Bị Đầy Đủ</h3>
+            <p class="strength-desc text-pretty">Võ đường trang bị đầy đủ bao cát, đệm đấm đá, sàn đấu đài và dụng cụ bảo hộ đạt chuẩn, đảm bảo an toàn tuyệt đối.</p>
+          </div>
+
+          <div class="strength-card reveal">
+            <div class="strength-icon-wrap">🤝</div>
+            <h3 class="strength-title text-balance">Môi Trường Thân Thiện</h3>
+            <p class="strength-desc text-pretty">Không khí tập luyện hòa đồng, kỷ luật nhưng ấm áp tình đồng môn, hỗ trợ lẫn nhau cùng tiến bộ mỗi ngày.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Diagonal Transition: Chuyển sang Phong Cách Hiện Đại -->
+    <div class="diagonal-divider" aria-hidden="true"></div>
+
+    <!-- ======================================================================
+         PHẦN 4: BỘ MÔN (3 THẺ: CỔ ĐIỂN vs HIỆN ĐẠI)
+         ====================================================================== -->
+    <section class="disciplines-section" id="bo-mon">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag tag-red text-nowrap">Đào Tạo Đa Dạng</span>
+          <h2 class="section-title-modern text-balance">Các Bộ Môn Giảng Dạy</h2>
+          <p class="section-subtitle-calligraphy text-balance">"Hội tụ tinh hoa võ thuật truyền thống & đối kháng hiện đại"</p>
+        </div>
+
+        <div class="disciplines-grid">
+          <!-- Thẻ 1: Võ Cổ Truyền (PHONG CÁCH CỔ ĐIỂN: Họa tiết mây sóng, Playfair Display) -->
+          <article class="discipline-card-classic reveal">
+            <div class="classic-card-header">
+              <span class="classic-badge text-nowrap">Võ Học Dân Tộc</span>
+              <h3 class="text-nowrap">Võ Cổ Truyền</h3>
+            </div>
+            <div>
+              <p class="text-pretty">
+                Tinh hoa võ thuật cổ truyền Việt Nam, rèn quyền thuật, thể lực và đạo đức võ đạo theo tinh thần Đức Tâm: võ đi đôi với đức.
+              </p>
+              <span class="classic-quote text-balance">"Tu tâm dưỡng tính – Bất khuất kiên cường"</span>
+            </div>
+            <div style="margin-top: 24px;">
+              <a href="#dang-ky" class="btn btn-secondary-gold text-nowrap" style="width: 100%;">
+                <span>Đăng ký học thử</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Thẻ 2: Boxing (PHONG CÁCH HIỆN ĐẠI: Cắt chéo góc, Oswald, Red glow) -->
+          <article class="discipline-card-modern reveal">
+            <div>
+              <span class="modern-badge text-nowrap">Modern Striking</span>
+              <h3 class="text-nowrap">Boxing</h3>
+              <p class="text-pretty">
+                Nghệ thuật của những cú đấm: kỹ thuật đấm, di chuyển, né tránh và phản xạ. Tiêu hao 600–800 kcal mỗi buổi.
+              </p>
+              <div class="calorie-tag text-nowrap">
+                <span>🔥 Đốt cháy 600–800 kcal/buổi</span>
+              </div>
+            </div>
+            <div style="margin-top: 28px;">
+              <a href="#dang-ky" class="btn btn-primary-red text-nowrap" style="width: 100%;">
+                <span>Đăng ký học thử</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Thẻ 3: Kickboxing (PHONG CÁCH HIỆN ĐẠI: Cắt chéo góc, Oswald, Red glow) -->
+          <article class="discipline-card-modern reveal">
+            <div>
+              <span class="modern-badge text-nowrap">Full Body Power</span>
+              <h3 class="text-nowrap">Kickboxing</h3>
+              <p class="text-pretty">
+                Sức mạnh toàn thân: kết hợp đấm và đá, săn chắc vóc dáng, xả stress hiệu quả.
+              </p>
+              <div class="calorie-tag text-nowrap">
+                <span>⚡ Phản xạ tự vệ thực chiến</span>
+              </div>
+            </div>
+            <div style="margin-top: 28px;">
+              <a href="#dang-ky" class="btn btn-primary-red text-nowrap" style="width: 100%;">
+                <span>Đăng ký học thử</span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         PHẦN 5: LỢI ÍCH KHI THAM GIA (4 MỤC - HIỆN ĐẠI GÓC CẠNH)
+         ====================================================================== -->
+    <section class="benefits-section" id="loi-ich">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag tag-red text-nowrap">Giá Trị Mang Lại</span>
+          <h2 class="section-title-modern text-balance">Lợi Ích Khi Tham Gia</h2>
+        </div>
+
+        <div class="benefits-grid">
+          <!-- Mục 1 -->
+          <div class="benefit-card reveal">
+            <div class="benefit-num text-nowrap">01</div>
+            <div class="benefit-body">
+              <h4 class="text-balance">Đốt mỡ & săn chắc vóc dáng</h4>
+              <p class="text-pretty">Tiêu hao 600–800 kcal/buổi, kích hoạt toàn bộ nhóm cơ, cải thiện độ dẻo dai và vóc dáng hiệu quả.</p>
+            </div>
+          </div>
+
+          <!-- Mục 2 -->
+          <div class="benefit-card reveal">
+            <div class="benefit-num text-nowrap">02</div>
+            <div class="benefit-body">
+              <h4 class="text-nowrap">Tự vệ thực chiến</h4>
+              <p class="text-pretty">Nắm vững kỹ thuật đấm, đá, né tránh và các phản xạ thoát hiểm an toàn.</p>
+            </div>
+          </div>
+
+          <!-- Mục 3 -->
+          <div class="benefit-card reveal">
+            <div class="benefit-num text-nowrap">03</div>
+            <div class="benefit-body">
+              <h4 class="text-nowrap">Tăng cường thể lực</h4>
+              <p class="text-pretty">Nâng cao sức bền, độ linh hoạt và giải tỏa căng thẳng toàn diện.</p>
+            </div>
+          </div>
+
+          <!-- Mục 4 -->
+          <div class="benefit-card reveal">
+            <div class="benefit-num text-nowrap">04</div>
+            <div class="benefit-body">
+              <h4 class="text-balance">Môi trường chuyên nghiệp</h4>
+              <p class="text-pretty">Không gian tập luyện trang bị đầy đủ bao cát, dụng cụ bảo hộ, giáo trình bài bản từ cơ bản đến nâng cao cho từng học viên.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         PHẦN 6: ĐỐI TƯỢNG CHIÊU SINH (3 MỤC)
+         ====================================================================== -->
+    <section class="targets-section" id="doi-tuong">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag text-nowrap">Dành Cho Mọi Lứa Tuổi</span>
+          <h2 class="section-title-modern text-balance">Đối Tượng Chiêu Sinh</h2>
+        </div>
+
+        <div class="targets-grid">
+          <!-- Đối tượng 1 -->
+          <div class="target-card reveal">
+            <div class="target-icon">🧒</div>
+            <h4 class="text-balance">Học sinh & Thiếu nhi</h4>
+            <p class="text-pretty">Học sinh, thiếu nhi từ lứa tuổi tiểu học trở lên — rèn phản xạ, thể chất.</p>
+          </div>
+
+          <!-- Đối tượng 2 -->
+          <div class="target-card reveal">
+            <div class="target-icon">🧑‍💼</div>
+            <h4 class="text-balance">Sinh viên & Người đi làm</h4>
+            <p class="text-pretty">Sinh viên và người đi làm — cải thiện cân nặng, giải tỏa stress, nâng cao thể lực.</p>
+          </div>
+
+          <!-- Đối tượng 3 -->
+          <div class="target-card reveal">
+            <div class="target-icon">⚡</div>
+            <h4 class="text-balance">Phù hợp Cả Nam & Nữ</h4>
+            <p class="text-pretty">Phù hợp cho cả nam và nữ, không yêu cầu nền tảng thể lực trước khi bắt đầu.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         PHẦN 7: LỊCH TẬP (DẠNG BẢNG 2 KHỐI - HIỆN ĐẠI GÓC CẠNH)
+         ====================================================================== -->
+    <section class="schedule-section" id="lich-tap">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag tag-red text-nowrap">Thời Gian Linh Hoạt</span>
+          <h2 class="section-title-modern text-balance">Lịch Tập Các Lớp</h2>
+        </div>
+
+        <div class="schedule-grid">
+          <!-- Khối 1: Từ Thứ Hai đến Thứ Sáu -->
+          <div class="schedule-block reveal">
+            <div class="schedule-block-header">
+              <h3 class="schedule-day-title text-nowrap">Từ Thứ Hai đến Thứ Sáu</h3>
+              <span class="schedule-badge text-nowrap">Các ngày trong tuần</span>
+            </div>
+            <div class="schedule-rows">
+              <div class="schedule-row">
+                <span class="schedule-class-name text-nowrap">Lớp sáng sớm</span>
+                <span class="schedule-class-time text-nowrap">05:00 – 06:30</span>
+              </div>
+              <div class="schedule-row">
+                <span class="schedule-class-name text-nowrap">Lớp chiều tối 1</span>
+                <span class="schedule-class-time text-nowrap">17:00 – 18:30</span>
+              </div>
+              <div class="schedule-row">
+                <span class="schedule-class-name text-nowrap">Lớp tối 2</span>
+                <span class="schedule-class-time text-nowrap">18:30 – 20:00</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Khối 2: Thứ Bảy & Chủ Nhật -->
+          <div class="schedule-block reveal">
+            <div class="schedule-block-header">
+              <h3 class="schedule-day-title text-nowrap">Thứ Bảy & Chủ Nhật</h3>
+              <span class="schedule-badge text-nowrap">Cuối tuần</span>
+            </div>
+            <div class="schedule-rows">
+              <div class="schedule-row">
+                <span class="schedule-class-name text-nowrap">Buổi sáng (Ca 1)</span>
+                <span class="schedule-class-time text-nowrap">07:30 – 09:00</span>
+              </div>
+              <div class="schedule-row">
+                <span class="schedule-class-name text-nowrap">Buổi sáng (Ca 2)</span>
+                <span class="schedule-class-time text-nowrap">09:00 – 10:30</span>
+              </div>
+              <div class="schedule-row">
+                <span class="schedule-class-name text-nowrap">Buổi chiều (Ca 1)</span>
+                <span class="schedule-class-time text-nowrap">15:30 – 17:00</span>
+              </div>
+              <div class="schedule-row">
+                <span class="schedule-class-name text-nowrap">Buổi chiều (Ca 2)</span>
+                <span class="schedule-class-time text-nowrap">17:00 – 18:30</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Note Box -->
+        <div class="schedule-note-box reveal">
+          <p class="text-pretty">📌 <strong>Ghi chú:</strong> Liên hệ hotline <a href="tel:0919793996" class="text-gold text-nowrap">0919.793.996</a> để được tư vấn xếp lớp phù hợp với thời gian biểu của bạn.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Brush Stroke Divider: Chuyển tiếp Cổ Điển -->
+    <div class="brush-divider" aria-hidden="true">
+      <svg viewBox="0 0 800 40" preserveAspectRatio="none">
+        <path d="M0,20 C150,5 250,35 400,18 C550,2 650,32 800,20 L800,22 C650,34 550,4 400,20 C250,37 150,7 0,22 Z" />
+      </svg>
+    </div>
+
+    <!-- ======================================================================
+         PHẦN 8: VÕ SƯ (PHONG CÁCH CỔ ĐIỂN, TRANG TRỌNG)
+         ====================================================================== -->
+    <section class="master-section" id="vo-su">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag text-nowrap">Người Truyền Lửa Võ Đạo</span>
+          <h2 class="section-title-classic text-balance">Ban Huấn Luyện</h2>
+        </div>
+
+        <div class="master-card-container reveal">
+          <div class="master-grid">
+            <!-- Portrait Wrap with Gold Border -->
+            <div class="master-photo-wrap">
+              <img src="images/hlv-chan-dung.jpg" alt="Võ sư Nguyễn Đình Luân" class="master-photo" onerror="this.onerror=null; this.src='images/Ảnh chân dung HLV.jpg';">
+            </div>
+
+            <!-- Master Information -->
+            <div class="master-info">
+              <span class="master-honorific text-nowrap">Chưởng môn & Huấn luyện viên trưởng</span>
+              <h3 class="master-name text-nowrap">Võ sư Nguyễn Đình Luân</h3>
+              <div class="master-role text-nowrap">CLB Võ Thuật Đức Tâm Môn</div>
+              <p class="master-bio text-pretty">
+                Võ sư sáng lập và trực tiếp huấn luyện tại CLB Võ thuật Đức Tâm Môn.
+              </p>
+              <div class="master-achievement-box">
+                <p class="text-nowrap">🏆 <strong>Thông tin thành tích:</strong> đang cập nhật</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         PHẦN 9: THƯ VIỆN ẢNH & VIDEO (LIGHTBOX & GOLD BORDERS)
+         ====================================================================== -->
+    <section class="gallery-section" id="thu-vien">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag tag-red text-nowrap">Khoảnh Khắc Tập Luyện</span>
+          <h2 class="section-title-modern text-balance">Thư Viện Ảnh & Video</h2>
+          <p class="section-subtitle-calligraphy text-balance">"Hình ảnh thực tế hoạt động tại võ đường Đức Tâm Môn"</p>
+        </div>
+
+        <!-- Video Player Showcase -->
+        <div class="video-showcase reveal" id="video-gioi-thieu">
+          <video controls class="video-player" poster="images/clb-bao-cat.jpg" preload="metadata">
+            <source src="images/CLB-Duc-Tam-Mon-V2-nhe.mp4" type="video/mp4">
+            <source src="images/video-luyen-tap.mp4" type="video/mp4">
+            Trình duyệt của bạn không hỗ trợ phát video này.
+          </video>
+          <div class="video-caption">
+            <span class="text-pretty">🎥 Video giới thiệu CLB Võ thuật Đức Tâm Môn</span>
+            <a href="#dang-ky" class="btn btn-secondary-gold text-nowrap" style="padding: 6px 14px; font-size: 0.82rem;">Đăng ký học thử</a>
+          </div>
+        </div>
+
+        <!-- Photo Grid with Gold Borders & Lightbox -->
+        <div class="gallery-grid">
+          <!-- Ảnh lớn 1: Võ đường & Cổng chào -->
+          <div class="gallery-item span-2 reveal" title="Bấm để xem ảnh lớn">
+            <img src="images/clb-cong-chao.jpg" alt="Võ đường CLB Đức Tâm Môn" class="gallery-img" data-full="images/clb-cong-chao.jpg" onerror="this.onerror=null; this.src='images/538616773_691361597292600_7955555843554048596_n.jpg';">
+            <div class="gallery-overlay">
+              <div class="gallery-overlay-icon">🔍</div>
+              <span class="gallery-caption-text text-pretty">Cổng vào & Võ đường CLB Đức Tâm Môn</span>
+            </div>
+          </div>
+
+          <!-- Ảnh lớn 2: Dàn bao cát chuyên dụng -->
+          <div class="gallery-item span-2 reveal" title="Bấm để xem ảnh lớn">
+            <img src="images/clb-bao-cat.jpg" alt="Dàn bao cát luyện tập chuyên nghiệp" class="gallery-img" data-full="images/clb-bao-cat.jpg" onerror="this.onerror=null; this.src='images/544354213_697139996714760_9215002813513516078_n.jpg';">
+            <div class="gallery-overlay">
+              <div class="gallery-overlay-icon">🔍</div>
+              <span class="gallery-caption-text text-pretty">Dàn bao cát và trang thiết bị tập luyện</span>
+            </div>
+          </div>
+
+          <!-- Ảnh lớn 3: Tập thể học viên CLB -->
+          <div class="gallery-item span-2 reveal" title="Bấm để xem ảnh lớn">
+            <img src="images/clb-hoc-vien.jpg" alt="Tập thể võ sinh CLB Đức Tâm Môn" class="gallery-img" data-full="images/clb-hoc-vien.jpg" onerror="this.onerror=null; this.src='images/544931185_697140016714758_8232744743354872099_n.jpg';">
+            <div class="gallery-overlay">
+              <div class="gallery-overlay-icon">🔍</div>
+              <span class="gallery-caption-text text-pretty">Tập thể võ sinh thiếu nhi và thanh thiếu niên</span>
+            </div>
+          </div>
+
+          <!-- Ảnh Gallery 1-6 -->
+          <div class="gallery-item reveal" title="Bấm để xem ảnh lớn">
+            <img src="images/gallery-1.jpg" alt="Học viên tập luyện Boxing thực chiến" class="gallery-img" data-full="images/gallery-1.jpg" onerror="this.onerror=null; this.src='images/722132525_923742510721173_6771412353970481291_n.jpg';">
+            <div class="gallery-overlay">
+              <div class="gallery-overlay-icon">🔍</div>
+              <span class="gallery-caption-text text-pretty">Luyện găng đối kháng trên sàn đài</span>
+            </div>
+          </div>
+
+          <div class="gallery-item reveal" title="Bấm để xem ảnh lớn">
+            <img src="images/gallery-2.jpg" alt="Hoạt động tập luyện võ sinh" class="gallery-img" data-full="images/gallery-2.jpg" onerror="this.onerror=null; this.src='images/722638441_923742534054504_8908097580864085518_n.jpg';">
+            <div class="gallery-overlay">
+              <div class="gallery-overlay-icon">🔍</div>
+              <span class="gallery-caption-text text-pretty">Rèn luyện phản xạ và kỹ thuật</span>
+            </div>
+          </div>
+
+          <div class="gallery-item reveal" title="Bấm để xem ảnh lớn">
+            <img src="images/gallery-3.jpg" alt="Tập luyện tại CLB Đức Tâm Môn" class="gallery-img" data-full="images/gallery-3.jpg" onerror="this.onerror=null; this.src='images/723041391_923742570721167_3457323747898231332_n.jpg';">
+            <div class="gallery-overlay">
+              <div class="gallery-overlay-icon">🔍</div>
+              <span class="gallery-caption-text text-pretty">Tập thể lực và bài quyền</span>
+            </div>
+          </div>
+
+          <div class="gallery-item reveal" title="Bấm để xem ảnh lớn">
+            <img src="images/gallery-4.jpg" alt="Võ sinh thiếu nhi hăng say tập luyện" class="gallery-img" data-full="images/gallery-4.jpg" onerror="this.onerror=null; this.src='images/723085294_923742557387835_2800928196097877726_n.jpg';">
+            <div class="gallery-overlay">
+              <div class="gallery-overlay-icon">🔍</div>
+              <span class="gallery-caption-text text-pretty">Võ sinh nhí rèn phản xạ và thể chất</span>
+            </div>
+          </div>
+
+          <div class="gallery-item reveal" title="Bấm để xem ảnh lớn">
+            <img src="images/gallery-5.jpg" alt="Không khí lớp học sôi nổi" class="gallery-img" data-full="images/gallery-5.jpg" onerror="this.onerror=null; this.src='images/723209106_923742500721174_7293962244870153393_n.jpg';">
+            <div class="gallery-overlay">
+              <div class="gallery-overlay-icon">🔍</div>
+              <span class="gallery-caption-text text-pretty">Không khí luyện tập sôi nổi</span>
+            </div>
+          </div>
+
+          <div class="gallery-item reveal" title="Bấm để xem ảnh lớn">
+            <img src="images/gallery-6.jpg" alt="HLV hướng dẫn từng động tác" class="gallery-img" data-full="images/gallery-6.jpg" onerror="this.onerror=null; this.src='images/723510364_923742470721177_3373217098482839978_n.jpg';">
+            <div class="gallery-overlay">
+              <div class="gallery-overlay-icon">🔍</div>
+              <span class="gallery-caption-text text-pretty">Chỉnh sửa động tác chuẩn xác</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox-modal" id="lightboxModal" role="dialog" aria-modal="true" aria-label="Xem ảnh phóng to">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Đóng">&times;</button>
+      <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Ảnh trước">&#10094;</button>
+      <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Ảnh kế tiếp">&#10095;</button>
+      <div class="lightbox-content">
+        <img src="" alt="" class="lightbox-img" id="lightboxImg">
+        <div class="lightbox-caption" id="lightboxCaption"></div>
+      </div>
+    </div>
+
+    <!-- ======================================================================
+         PHẦN 10: LIÊN HỆ & ĐĂNG KÝ (HIỆN ĐẠI, CTA ĐỎ MẠNH)
+         ====================================================================== -->
+    <section class="contact-section" id="lien-he">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag tag-red text-nowrap">Gia Nhập Ngay Hôm Nay</span>
+          <h2 class="section-title-modern text-balance">Liên Hệ & Đăng Ký Học Thử</h2>
+          <p class="section-subtitle-calligraphy text-balance">"Học thử hoàn toàn miễn phí — Trải nghiệm năng lượng võ đạo"</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Cột Trái: Thông tin liên hệ & 3 nút hành động -->
+          <div class="contact-info-card reveal">
+            <div class="contact-info-header">
+              <h3 class="text-balance">Võ Đường Đức Tâm Môn</h3>
+              <p class="text-gray text-pretty">Luôn sẵn sàng đón chào và tư vấn lộ trình học phù hợp nhất cho bạn và gia đình.</p>
+            </div>
+
+            <!-- Khối Địa Chỉ -->
+            <div class="contact-address-block">
+              <div class="contact-address-title text-nowrap">📍 Địa Chỉ Võ Đường</div>
+              <p class="contact-address-text text-pretty">
+                Khu TM1, Khu đô thị mới Cao Xanh – Hà Khánh, phường Cao Xanh, TP Quảng Ninh<br>
+                <span class="text-muted" style="font-size: 0.9rem;">(Cạnh Trung tâm Dịch vụ Việc làm TP. Quảng Ninh — từ cầu K67 rẽ vào đường bao biển 200m)</span>
+              </p>
+            </div>
+
+            <!-- 3 Nút Hành Động Trực Tiếp -->
+            <div class="contact-direct-actions">
+              <a href="https://maps.app.goo.gl/Bar7LmVq5jm2bxjA8?g_st=az" target="_blank" rel="noopener noreferrer" class="btn btn-outline-white text-nowrap" id="btnMap">
+                <span>📍 Xem Bản Đồ Chỉ Đường</span>
+              </a>
+              <a href="tel:0919793996" class="btn btn-primary-red text-nowrap" id="btnCallDirect">
+                <span>📞 Gọi 0919.793.996</span>
+              </a>
+              <a href="https://zalo.me/0919793996" target="_blank" rel="noopener noreferrer" class="btn btn-secondary-gold text-nowrap" id="btnZaloDirect">
+                <span>💬 Chat Zalo (0919.793.996)</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Cột Phải: Form Đăng Ký Học Thử Miễn Phí (ID #dang-ky) -->
+          <div class="registration-form-wrap reveal" id="dang-ky">
+            <h3 class="form-title text-balance">Đăng Ký Học Thử Miễn Phí</h3>
+            <p class="form-subtitle text-pretty">Điền thông tin bên dưới để đăng ký ngay. Hệ thống sẽ kết nối trực tiếp đến Zalo của võ sư.</p>
+
+            <form id="trialForm">
+              <!-- Họ và tên -->
+              <div class="form-group">
+                <label for="regName" class="form-label text-nowrap">Họ và tên <span class="req">*</span></label>
+                <input type="text" id="regName" name="regName" class="form-control" placeholder="Ví dụ: Nguyễn Văn A" required>
+              </div>
+
+              <!-- Số điện thoại -->
+              <div class="form-group">
+                <label for="regPhone" class="form-label text-nowrap">Số điện thoại <span class="req">*</span></label>
+                <input type="tel" id="regPhone" name="regPhone" class="form-control" placeholder="Ví dụ: 0919793996" required>
+              </div>
+
+              <!-- Chọn bộ môn -->
+              <div class="form-group">
+                <label for="regDiscipline" class="form-label text-nowrap">Chọn bộ môn quan tâm <span class="req">*</span></label>
+                <select id="regDiscipline" name="regDiscipline" class="form-control" required>
+                  <option value="Võ cổ truyền">Võ cổ truyền Việt Nam</option>
+                  <option value="Boxing">Boxing (Quyền Anh)</option>
+                  <option value="Kickboxing">Kickboxing</option>
+                  <option value="Cần tư vấn thêm">Cần tư vấn thêm bộ môn phù hợp</option>
+                </select>
+              </div>
+
+              <!-- Khung giờ mong muốn -->
+              <div class="form-group">
+                <label for="regTime" class="form-label text-nowrap">Khung giờ mong muốn</label>
+                <select id="regTime" name="regTime" class="form-control">
+                  <option value="Lớp sáng sớm (05:00 - 06:30)">Lớp sáng sớm: 05:00 – 06:30 (Thứ 2 - 6)</option>
+                  <option value="Lớp chiều tối 1 (17:00 - 18:30)">Lớp chiều tối 1: 17:00 – 18:30 (Thứ 2 - 6)</option>
+                  <option value="Lớp tối 2 (18:30 - 20:00)">Lớp tối 2: 18:30 – 20:00 (Thứ 2 - 6)</option>
+                  <option value="Lớp cuối tuần (Thứ 7 & CN)">Lớp cuối tuần: Thứ 7 & Chủ Nhật</option>
+                  <option value="Linh hoạt theo tư vấn">Linh hoạt / Chưa xác định</option>
+                </select>
+              </div>
+
+              <!-- Nút Gửi Đăng Ký -->
+              <button type="submit" class="btn btn-primary-red form-submit-btn text-nowrap" id="btnSubmitTrial">
+                <span>🔥 Gửi Đăng Ký Học Thử</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Notification Toast Popup -->
+    <div class="reg-notification" id="regNotification" role="alert" aria-live="polite">
+      <div class="reg-notification-icon">✅</div>
+      <div class="reg-notification-text" id="regNotificationText">
+        Đang xử lý đăng ký...
+      </div>
+    </div>
+  </main>
+
+  <!-- ========================================================================
+       PHẦN 11: FOOTER
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand Info -->
+        <div class="footer-brand">
+          <div class="footer-brand-title text-nowrap">CLB VÕ THUẬT ĐỨC TÂM MÔN</div>
+          <div class="footer-slogan text-balance">"Rèn thân – Luyện tâm – Sống khỏe mỗi ngày"</div>
+          <p class="footer-address text-pretty">
+            Khu TM1, Khu đô thị mới Cao Xanh – Hà Khánh, phường Cao Xanh, TP Quảng Ninh (Cạnh Trung tâm Dịch vụ Việc làm TP. Quảng Ninh — từ cầu K67 rẽ vào đường bao biển 200m).
+          </p>
+        </div>
+
+        <!-- Contact & Social Links -->
+        <div class="footer-contact-links">
+          <div class="footer-contact-item text-nowrap">
+            <strong>Hotline / Zalo:</strong>
+            <a href="tel:0919793996">0919.793.996</a>
+          </div>
+          <div class="footer-contact-item text-nowrap">
+            <strong>Facebook Võ sư:</strong>
+            <a href="https://www.facebook.com/nguyendinhluandtd" target="_blank" rel="noopener noreferrer">
+              facebook.com/nguyendinhluandtd
+            </a>
+          </div>
+          <div class="footer-contact-item text-nowrap">
+            <strong>Chỉ đường Google Maps:</strong>
+            <a href="https://maps.app.goo.gl/Bar7LmVq5jm2bxjA8?g_st=az" target="_blank" rel="noopener noreferrer">
+              Xem vị trí võ đường
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="text-nowrap">© 2026 CLB Võ thuật Đức Tâm Môn. Bản quyền thuộc về CLB.</div>
+        <div class="text-nowrap">Môn phái Đức Tâm Môn — Võ cổ truyền • Boxing • Kickboxing</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       FLOATING ACTION BUTTONS (GÓC DƯỚI BÊN PHẢI)
+       ======================================================================== -->
+  <div class="floating-actions" aria-label="Phím tắt liên hệ nhanh">
+    <!-- Nút gọi Hotline -->
+    <a href="tel:0919793996" class="float-btn float-btn-phone" title="Gọi ngay Hotline 0919.793.996" id="floatBtnPhone">
+      <span>📞</span>
+    </a>
+
+    <!-- Nút Chat Zalo -->
+    <a href="https://zalo.me/0919793996" target="_blank" rel="noopener noreferrer" class="float-btn float-btn-zalo" title="Chat Zalo ngay" id="floatBtnZalo">
+      <span style="font-weight: 700; font-size: 0.95rem; font-family: sans-serif;">Zalo</span>
+    </a>
+
+    <!-- Nút Về đầu trang -->
+    <button class="float-btn float-btn-top" id="backToTopBtn" title="Về đầu trang" aria-label="Cuộn về đầu trang">
+      <span>▲</span>
+    </button>
+  </div>
+
+  <!-- Custom JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
